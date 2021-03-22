@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="a" parent="@style/Theme.AppCompat.Light.NoActionBar"><item name="android:navigationBarColor">@color/m</item><item name="windowNoTitle">true</item><item name="android:windowAnimationStyle">@style/k</item><item name="android:windowBackground">@color/b</item><item name="colorPrimary">@color/a</item><item name="colorPrimaryDark">@color/a</item><item name="colorAccent">@color/a</item></style>
+
+<style name="b" parent="@style/Widget.AppCompat.ActionButton.Overflow"><item name="android:src">@drawable/m</item></style>
+
+<style name="c" parent="@style/Widget.AppCompat.ActionButton.Overflow"><item name="android:src">@drawable/l</item></style>
+
+<style name="d" parent="@style/Theme.AppCompat.Light.NoActionBar"><item name="android:listDivider">@android:color/transparent</item><item name="android:windowBackground">@color/b</item><item name="android:windowAnimationStyle">@style/k</item> <item name="android:textColorHighlight">@color/l</item><item name="colorPrimary">@color/b</item><item name="colorPrimaryDark">@color/c</item><item name="colorAccent">@color/a</item><item name="android:statusBarColor">@color/b</item><item name="windowNoTitle">true</item><item name="actionOverflowButtonStyle">@style/c</item><item name="android:windowLightStatusBar">true</item><item name="android:navigationBarColor">@color/m</item></style>
+
+<style name="e" parent="@style/Theme.AppCompat.NoActionBar"><item name="android:listDivider">@android:color/transparent</item><item name="android:windowBackground">@color/n</item><item name="android:windowAnimationStyle">@style/k</item><item name="android:textColorHighlight">@color/l</item><item name="colorPrimary">@color/n</item><item name="colorPrimaryDark">@color/n</item><item name="colorAccent">@color/a</item><item name="android:statusBarColor">@color/n</item><item name="windowNoTitle">true</item><item name="actionOverflowButtonStyle">@style/b</item><item name="android:windowLightStatusBar">false</item><item name="android:navigationBarColor">@color/n</item></style>
+
+<style name="f" parent="@style/Theme.AppCompat.Light.NoActionBar"><item name="android:windowAnimationStyle">@style/n</item><item name="android:windowBackground">@drawable/a</item><item name="android:windowLightStatusBar">false</item><item name="windowNoTitle">true</item><item name="android:navigationBarColor">@android:color/transparent</item><item name="android:statusBarColor">@android:color/transparent</item></style>
+
+<style name="g" parent="@style/Theme.AppCompat.Light.NoActionBar"><item name="android:windowAnimationStyle">@style/i</item><item name="colorPrimary">@color/b</item><item name="windowNoTitle">true</item><item name="colorPrimaryDark">@color/c</item><item name="colorAccent">@color/a</item><item name="android:windowFullscreen">true</item><item name="android:navigationBarColor">@color/m</item></style>
+
+<style name="i" parent="@android:style/Animation.Activity"><item name="android:activityOpenEnterAnimation">@anim/c</item><item name="android:activityOpenExitAnimation">@anim/f</item><item name="android:activityCloseEnterAnimation">@anim/f</item><item name="android:activityCloseExitAnimation">@anim/d</item></style>
+
+<style name="k" parent="@android:style/Animation.Activity"><item name="android:activityOpenEnterAnimation">@anim/a</item><item name="android:activityOpenExitAnimation">@anim/f</item><item name="android:activityCloseEnterAnimation">@anim/f</item><item name="android:activityCloseExitAnimation">@anim/b</item></style>
+
+<style name="l" parent="@style/Theme.AppCompat.Light.NoActionBar"><item name="android:windowAnimationStyle">@style/i</item><item name="colorPrimary">@color/b</item><item name="colorPrimaryDark">@color/c</item><item name="colorAccent">@color/a</item><item name="android:statusBarColor">@color/b</item><item name="android:windowLightStatusBar">true</item><item name="android:navigationBarColor">@color/m</item><item name="windowNoTitle">true</item><item name="android:windowBackground">@android:color/transparent</item><item name="android:colorBackgroundCacheHint">@null</item><item name="android:windowIsTranslucent">true</item></style>
+
+<style name="m" parent="@style/Theme.AppCompat.Light.NoActionBar"><item name="colorPrimary">@color/n</item><item name="colorPrimaryDark">@color/n</item><item name="android:windowBackground">@android:color/transparent</item><item name="android:colorBackgroundCacheHint">@null</item><item name="android:windowIsTranslucent">true</item><item name="android:windowAnimationStyle">@style/i</item><item name="windowNoTitle">true</item><item name="colorAccent">@color/a</item><item name="android:statusBarColor">@color/n</item><item name="android:windowLightStatusBar">false</item><item name="android:navigationBarColor">@color/n</item></style>
+
+<style name="n" parent="@android:style/Animation.Activity"><item name="android:windowEnterAnimation">@anim/e</item><item name="android:windowExitAnimation">@anim/e</item></style>
+
+<style name="o" parent="@style/a"><item name="android:textSize">14.0sp</item><item name="android:textColor">@color/c</item></style>
+
+<style name="p" parent="@style/a"><item name="android:textSize">40.0dip</item><item name="android:textColor">@color/c</item></style>
+
+<style name="q" parent="@style/a"><item name="android:textSize">15.0sp</item><item name="android:textStyle">bold</item><item name="android:textColor">@color/b</item></style>
+
+<style name="r" parent="@style/a"><item name="android:textSize">14dp</item><item name="android:textStyle">normal</item><item name="android:textColor">@color/c</item></style>
+
+</resources>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="a">General</string>
+<string name="b">Privacy &amp; Security</string>
+<string name="c">Advanced</string>
+<string name="d">Data Saver</string>
+<string name="e">Other</string>
+<string name="f">About</string>
+<string name="g">Contact Support</string>
+<string name="h">Dark Mode</string>
+<string name="i">Exit Button</string>
+<string name="j">Enable JavaScript</string>
+<string name="k">Page Content</string>
+<string name="l">Open Pages in Overview</string>
+<string name="m">Enable Zoom Controls</string>
+<string name="n">Clear Cache</string>
+<string name="o">Hide Status Bar</string>
+<string name="p">Horizontal Screen</string>
+<string name="q">Keep Screen On</string>
+<string name="r">Block Images &amp; Video Thumbnails</string>
+<string name="s">Block Autoplay Videos</string>
+<string name="t">Clear History</string>
+<string name="u">Copy</string>
+<string name="v">Delete locally cached content and databases?</string>
+<string name="w">Delete the WebView navagation history?</string>
+<string name="x">Ok</string>
+<string name="y">Cancel</string>
+<string name="z">Cookies</string>
+<string name="a1">Form Data</string>
+<string name="a2">Location</string>
+<string name="a3">Passwords</string>
+<string name="a4">Accept Cookies</string>
+<string name="a5">Remember Form Data</string>
+<string name="a6">Enable Location</string>
+<string name="a7">Remember Passwords</string>
+<string name="a8">Share</string>
+<string name="a9">Open in</string>
+<string name="a10">Exit</string>
+<string name="a11">Save</string>
+<string name="a12">Edit</string>
+
+
+
+
+
+<string name="p20">WebView</string>
+<string name="c9">http://google.com</string>
+<string name="c10">http://facebook.com</string>
+<string name="c11">http://free.facebook.com</string>
+<string name="c12">http://freebasics.com</string>
+<string name="c13">http://mp3juices.cc</string>
+<string name="c14">http://stackoverflow.com</string>
+<string name="c15">http://developer.android.com</string>
+<string name="c16">http://play.google.com</string>
+<string name="q2">https://api.evozi.com/ip_ui</string>
+</resources>

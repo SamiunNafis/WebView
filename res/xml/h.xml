@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+	<header android:title="WebView" android:summary="© 2018-2019 Melvin Jones Repol (DROID_MJ)" android:fragment="com.android.DROID_MJ.webview.i">
+		<extra android:name="category" android:value="aboutWebView" />
+	</header>
+	<header android:title="Version" android:summary="13.0c" />
+	<header android:title="Translations" android:fragment="com.android.DROID_MJ.webview.i">
+		<extra android:name="category" android:value="trans" />
+	</header>
+	<header android:title="Open Sources Licenses" android:fragment="com.android.DROID_MJ.webview.i">
+		<extra android:name="category" android:value="open" />
+	</header>
+	<header android:title="Terms &amp; Conditions" android:fragment="com.android.DROID_MJ.webview.i">
+		<extra android:name="category" android:value="terms" />
+	</header>
+	<header android:title="Privacy Policy" android:fragment="com.android.DROID_MJ.webview.i">
+		<extra android:name="category" android:value="privacy" />
+	</header>
+</preference-headers>

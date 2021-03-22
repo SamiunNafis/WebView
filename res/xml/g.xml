@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory>
+	<com.android.DROID_MJ.webview.g android:title="@string/n" android:key="clearCache" android:dialogMessage="@string/v" android:positiveButtonText="@string/x" android:negativeButtonText="@string/y" />
+	<com.android.DROID_MJ.webview.g android:title="@string/t" android:key="clearHistory" android:dialogMessage="@string/w" android:positiveButtonText="@string/x" android:negativeButtonText="@string/y" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/z">
+		<CheckBoxPreference android:title="@string/a4" android:key="cookies" android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/a1">
+		<CheckBoxPreference android:title="@string/a5" android:key="form" android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/a2">
+		<CheckBoxPreference android:title="@string/a6" android:key="location" android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/a3">
+		<CheckBoxPreference android:title="@string/a7" android:key="passwords" android:defaultValue="true" />
+	</PreferenceCategory>
+</PreferenceScreen>
+
+
+

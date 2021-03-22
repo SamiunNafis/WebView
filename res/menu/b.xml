@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="@id/a14" android:title="@string/a11" app:showAsAction="always" android:visible="false" />
+	<item android:id="@id/a15" android:title="@string/a12" app:showAsAction="always" android:visible="false" />
+	<item android:id="@id/a16" android:title="@string/u" app:showAsAction="never" android:visible="false" />
+	<item android:id="@id/a17" android:title="@string/a8" app:showAsAction="never" android:visible="false" />
+	<item android:id="@id/a18" android:title="@string/a10" app:showAsAction="never" android:visible="false" />
+</menu>
+
+

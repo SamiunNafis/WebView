@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory>
+	<CheckBoxPreference android:title="@string/h" android:key="autoUpdate" android:defaultValue="false" />
+	<CheckBoxPreference android:title="@string/i" android:key="exit" android:defaultValue="false" />
+	</PreferenceCategory>
+</PreferenceScreen>

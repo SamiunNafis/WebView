@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="@id/q" android:title="Stop" app:showAsAction="never" />
+	<item android:id="@id/r" android:title="Refresh" app:showAsAction="never" />
+	<item android:id="@id/s" android:title="Forward" app:showAsAction="never" />
+	<item android:id="@id/d" android:title="Incognito" app:showAsAction="never" android:checkable="true"/>
+	<item android:id="@id/t" android:title="Exit" app:showAsAction="never" android:visible="false" />
+	<item android:id="@id/u" android:title="Downloads" app:showAsAction="never" />
+	<item android:id="@id/v" android:title="Home" app:showAsAction="never" />
+	<item android:id="@id/w" android:title="Share" app:showAsAction="never" />
+	<item android:id="@id/x" android:title="Open in" app:showAsAction="never" />
+	<item android:title="Top Visited Site" app:showAsAction="never">
+		<menu>
+			<group>
+				<item android:id="@id/y" android:title="Google" app:showAsAction="never" />
+				<item android:id="@id/z" android:title="Facebook" app:showAsAction="never" />
+				<item android:id="@id/a1" android:title="Free Facebook" app:showAsAction="never" />
+				<item android:id="@id/a2" android:title="Free Basics" app:showAsAction="never" />
+				<item android:id="@id/a3" android:title="MP3 Juices" app:showAsAction="never" />
+				<item android:id="@id/a4" android:title="StackOverFlow" app:showAsAction="never" />
+				<item android:id="@id/a5" android:title="Android Developers" app:showAsAction="never" />
+				<item android:id="@id/a6" android:title="Play Store" app:showAsAction="never" />
+			</group>
+		</menu>
+	</item>
+	<item android:id="@id/a7" android:title="Desktop Site" android:checkable="true" app:showAsAction="never" />
+	<item android:title="Tools" app:showAsAction="never">
+		<menu>
+			<item android:id="@id/a8" android:title="Copy" app:showAsAction="never" />
+			<item android:id="@id/a9" android:title="Check IP" app:showAsAction="never" />
+			<item android:id="@id/a10" android:title="Radio Network" app:showAsAction="never" />
+			<item android:id="@id/a11" android:title="Source Code" app:showAsAction="never" />
+			<item android:id="@id/a12" android:title="Page Info" app:showAsAction="never" />
+		</menu>
+	</item>
+  <item android:id="@id/a13" android:title="Settings" app:showAsAction="never" />
+</menu>
+
+
+
+

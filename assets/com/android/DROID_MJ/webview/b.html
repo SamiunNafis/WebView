@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Testing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<style type="text/css">
+        *{
+        color: #484848;
+        font-family: a;
+        }
+        @font-face {
+        font-family: a;
+        src: url("file:///android_asset/fonts/b.ttf")
+        }
+noscript.a, noframes.a {
+color: #ea4335;
+font-weight: 500;
+font-size: 16px;
+text-align-last: left;
+text-shadow: 0px 1px;
+margin: 10px;
+}
+.b {
+position: relative;
+padding: 5px;
+}
+.c {
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none; 
+-webkit-tap-highlight-color: transparent;
+user-select: none;
+}
+.d {
+text-align-last: center!important;
+}
+.e {
+font-size: 40px;
+color: #4285f4;
+font-weight: 500;
+}
+.f {
+display: none;
+}
+.g {
+height: 150px;
+width: 260px;
+}
+ul {
+    background: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 1px #dddddd;
+}
+
+ li {
+    padding: 5px;
+    margin-left: 35px;
+     color: #484848;
+    list-style-type: none;
+}
+
+ul li {
+    background-color: transparent;
+    margin: 5px;
+    
+}
+form {
+display: none;
+}
+</style>
+<script type="text/javascript">
+function a() {
+alert("This is a JavaScript Alert");
+}
+function b() {
+confirm("This is a JavaScript Confirm");
+}
+function c() {
+prompt("This is a JavaScript Prompt");
+}
+function d() {
+document.getElementById("e").style.display = "none";
+}
+function f() {
+document.getElementById("e").style.display = "block";
+}
+function g() {
+document.getElementById("h").style.display = "block";
+}
+var k;
+function i() {
+    if(typeof(Worker) !== "undefined") {
+        if(typeof(k) == "undefined") {
+            k = new Worker("d.js");
+        }
+        k.onmessage = function(event) {
+            document.getElementById("l").innerHTML = event.data;
+        };
+    } else {
+        document.getElementById("l").innerHTML = "Sorry! No Web Worker support.";
+    }
+}
+
+function j() { 
+    k.terminate();
+    k = undefined;
+    document.getElementById("h").style.display = "none";
+}
+</script>
+</head>
+<body>
+<div class="c b d e">WebView</div>
+<div class="b c"><noscript class="a">JavaScript is Disabled</noscript></div>
+<div class="b c"><noframes class="a">Frames is Disabled</noframes></div>
+<ul class="c">
+  <li onClick="a()">JavaScript Alert</li>
+  <li onClick="b()">JavaScript Confirm</li>
+  <li onClick="c()">JavaScript Prompt</li>
+  <li onClick="f()">HTML File Input</li>
+  <li onClick="g()">HTML 5 Web Worker's</li>
+  <li onclick
+</ul>
+<form id="e">
+<input type="file">
+<input type="submit" onClick="d()">
+</form>
+<div class="f" id="h">
+<p>Count numbers:
+<output id="l"></output>
+</p>
+<button onclick="i()">Start Worker</button> 
+<button onclick="j()">Stop Worker</button>
+</div>
+<object class="g" data="file:///android_asset/nope.webp"></object>
+</body>
+</html>

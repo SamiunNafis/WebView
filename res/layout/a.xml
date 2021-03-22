@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:gravity="center" android:id="@id/a" android:layout_width="fill_parent"  android:layout_marginTop="35.0dip" android:layout_height="wrap_content" style="@style/p" />
+	<TextView android:gravity="center" android:id="@id/b" android:layout_width="fill_parent" android:layout_below="@id/a" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_marginTop="60.0dip" style="@style/o" />
+	<android.support.v7.widget.AppCompatButton android:textAppearance="@style/q" android:gravity="center" android:id="@id/c" android:layout_width="180.0dip" android:layout_height="wrap_content"  android:layout_marginTop="30.0dip"  android:layout_alignParentBottom="true" android:layout_marginBottom="13dp"
+        android:layout_centerHorizontal="true" app:backgroundTint="@color/a" style="@style/Widget.AppCompat.Button.Colored" />
+</RelativeLayout>

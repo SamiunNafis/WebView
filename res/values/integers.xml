@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="a">150</integer>
+    <integer name="b">0x00000004</integer>
+    <integer name="c">150</integer>
+    <integer name="d">150</integer>
+</resources>

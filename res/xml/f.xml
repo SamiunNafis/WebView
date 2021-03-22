@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory>
+	<CheckBoxPreference android:title="@string/j" android:key="java" android:defaultValue="true" />
+  </PreferenceCategory>
+	<PreferenceCategory android:title="@string/k">
+		<CheckBoxPreference android:title="@string/l" android:key="open" android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/m" android:key="zoom" android:defaultValue="false"/>
+	</PreferenceCategory>
+</PreferenceScreen>

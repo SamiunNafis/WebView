@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+	<header android:title="@string/a" android:fragment="com.android.DROID_MJ.webview.n">
+		<extra android:name="category" android:value="general" />
+	</header>
+	<header android:title="@string/b" android:fragment="com.android.DROID_MJ.webview.n">
+		<extra android:name="category" android:value="privacy" />
+	</header>
+	<header android:title="@string/c" android:fragment="com.android.DROID_MJ.webview.n">
+		<extra android:name="category" android:value="advanced" />
+	</header>
+	<header android:title="@string/d" android:fragment="com.android.DROID_MJ.webview.n">
+		<extra android:name="category" android:value="bandwidth" />
+	</header>
+	<header android:title="@string/e" android:fragment="com.android.DROID_MJ.webview.n">
+		<extra android:name="category" android:value="labs" />
+	</header>
+	<header android:title="@string/f">
+		<intent android:targetPackage="com.android.DROID_MJ.webview" android:targetClass="com.android.DROID_MJ.webview.h" />
+	</header>
+	<header android:title="@string/g" />
+</preference-headers>

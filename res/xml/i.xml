@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Special Thanks to:">
+    <Preference android:title="Samiun Nafis" />
+  <Preference android:title="Michael Duru" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Test 2">
+
+
+    <Preference android:title="Messenger" />
+  <Preference android:title="Facebook" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

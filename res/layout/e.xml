@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<android.support.v7.widget.Toolbar android:id="@id/o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+<LinearLayout  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<LinearLayout android:orientation="vertical" android:id="@id/b10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<AutoCompleteTextView android:textSize="16.0dip" android:textColorHighlight="@color/l" android:gravity="center_vertical" android:layout_marginRight="7dp" android:layout_marginLeft="7dp" android:id="@id/p" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textNoSuggestions" android:imeOptions="actionDone" android:imeActionId="@integer/b" />
+</LinearLayout>
+</LinearLayout>
+	</android.support.v7.widget.Toolbar>
+	<View android:id="@id/b2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

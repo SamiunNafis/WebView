@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory>
+	<CheckBoxPreference android:title="@string/o" android:key="hide" android:defaultValue="false"/>
+	<CheckBoxPreference android:title="@string/p" android:key="hori" android:defaultValue="false" />
+	<CheckBoxPreference android:title="@string/q" android:key="keep" android:defaultValue="false" />
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<android.support.v7.widget.Toolbar android:id="@id/f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<LinearLayout android:orientation="vertical" android:id="@id/b9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textSize="16.0dip" android:gravity="center_vertical" android:id="@id/g"  android:layout_marginRight="7dp" android:layout_marginLeft="7dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+</LinearLayout>
+</LinearLayout>
+	</android.support.v7.widget.Toolbar>
+	<ProgressBar android:id="@id/h"  android:layout_width="fill_parent" android:layout_height="3.0dip" android:progressDrawable="@drawable/k" style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+	<android.support.v4.widget.SwipeRefreshLayout android:id="@id/i" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<WebView android:id="@id/j" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
